@@ -1,0 +1,9 @@
+logs
+__pycache__
+.vscode
+.mypy_cache
+.pytest_cache
+.ruff_cache
+.gitignore
+.pre-commit-config.yaml
+.python-version
