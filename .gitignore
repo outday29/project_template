@@ -4,4 +4,6 @@ __pycache__
 .mypy_cache
 .pytest_cache
 .ruff_cache
-logs 
+logs
+TODO.md
+.venv
