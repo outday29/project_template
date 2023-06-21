@@ -4,4 +4,7 @@ __pycache__
 .mypy_cache
 .pytest_cache
 .ruff_cache
-logs 
+.ipynb_checkpoints
+logs
+TODO.md
+.venv
