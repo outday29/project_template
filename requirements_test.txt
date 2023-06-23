@@ -2,3 +2,6 @@ ruff
 black
 mypy
 pytest
+pytest-sugar
+pytest-cov
+pytest-asyncio
