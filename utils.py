@@ -11,4 +11,4 @@ def timer(message: Optional[str] = None):
     yield
     end_time = time.perf_counter()
     elapsed_time = end_time - start_time
-    print(f"{elapsed_time} seconds")
+    print(f"{elapsed_time:.3f} seconds")
