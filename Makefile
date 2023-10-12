@@ -1,12 +1,12 @@
-.PHONY: format lint test
+.PHONY: format lint test tests
 
 format:
 	black .
-	ruff --select I --fix .
+	ruff --select I --select E --select F --fix .
 
 lint:
 	black . --check
 	ruff .
 
-test:
-	pytest --durations=0.1 ./tests
+test tests:
+	pytest -s ./tests
