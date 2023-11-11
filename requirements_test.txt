@@ -1,4 +1,0 @@
-ruff
-black
-mypy
-pytest
