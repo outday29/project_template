@@ -2,7 +2,7 @@
 
 format:
 	black .
-	ruff --select I --fix .
+	ruff --select I --select E --select F --fix .
 
 lint:
 	black . --check
